@@ -1,0 +1,106 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+
+}
+
+body{
+    background-color: rgb(70, 70, 70);
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(187, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media(max-width:1100px){
+body{
+    background-color: rgb(216, 0, 0);
+}
+.box{
+    background-color: rgb(107, 106, 106);
+    width: 300px;
+}
+.wrapper{
+    flex-wrap: wrap;
+}
+}
+
+@media(max-width:924px){
+    .box{
+        background-color: rgb(7, 152, 236);
+        width: 250px;
+
+    }
+
+    .wrapper{
+        justify-content: space-around;
+    }
+    body{
+        background-color: rgb(255, 51, 0);
+    }
+
+    
+}
+@media(max-width:774px){
+    body{
+        background-color: rgb(6, 86, 160);
+    }
+    .box{
+        background-color: rgb(204, 191, 3);
+        width: 200px;
+        height: 200px;
+    }
+    .wrapper{
+        flex-wrap: wrap;
+    }
+    }
+
+    @media(max-width:624px){
+        body{
+            background-color: rgb(88, 88, 92);
+        }
+        .box{
+            background-color: rgb(7, 9, 102);
+            width: 250px;
+            height: 250px;
+        }
+        .wrapper{
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        }
+
+        @media(max-width:520px){
+            body{
+                background-color: rgb(88, 88, 92);
+            }
+            .box{
+                background-color: rgb(7, 102, 70);
+                width: 250px;
+                height: 250px;
+            }
+            .wrapper{
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            }
+
+            @media(max-width:274px){
+                body{
+                    background-color: #580;
+                }
+                .box{
+                    width: 0px;
+                    height: 0px;
+                    color: #580;
+
+                }}  
+
+
